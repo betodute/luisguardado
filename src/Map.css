@@ -1,0 +1,13 @@
+.map-wrapper {
+    margin: 1em 1em;
+    padding: .5em;
+    width: fit-content;
+    background-color: antiquewhite;
+    border-radius: .5em;
+}
+
+.map-title {
+    color: #253243;
+    margin: .5em .5em;
+    font-size: .9em;
+}

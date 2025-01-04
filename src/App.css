@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-main {
+  background-color: #253243;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: #253243;
+}
+
