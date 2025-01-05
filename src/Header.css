@@ -1,13 +1,13 @@
 .header-wrapper {
-    margin-left: 2em;
+    margin: 0em 2em;
 }
 
 .header-title {
     font-family: "MuseoModerno", sans-serif;
     font-weight: 600;
     font-size: 1.5em;
-    padding-left: .7em;
-    padding-right: .7em;
+    padding-left: .5em;
+    padding-right: .5em;
     margin: 1em 0em;
     background-color: antiquewhite;
     border-radius: 1em;
@@ -19,16 +19,38 @@
     }
 }
 
+.profile-pic-wrapper {
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1em;
+    display: block;
+}
+
 .header-subtitle {
     color: antiquewhite;
-    padding-left: 1.1em;
-    padding-right: .7em;
-    margin: 1em;
-    font-size: 1.4em;
+    font-size: .7em;
+    margin: .5em 0em;
 }
 
 .header-content {
-    padding: .1em;
     color: antiquewhite;
-    margin: 0em 3em;
+    margin: .5em 0em;
 }
+
+.first-line {
+    margin: 1em 0em .5em 0em;
+    display: block;
+    font-size: 1.3em;
+}
+
+.block-description {
+    font-family: "Manuale", serif;
+    font-optical-sizing: auto;
+}
+

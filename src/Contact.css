@@ -1,5 +1,21 @@
+.contact-wrapper {
+    margin: 1em 2em;
+    padding: .5em;
+    border-top: solid antiquewhite;
+    border-bottom: solid antiquewhite;
+    display: flex;
+}
+
 .contact-phone {
-    margin: .5em 2.2em;
+    padding: .5em;
     font-size: 1em;
     color: antiquewhite;
 }
+
+#contact-icon {
+    margin-top: .6em;
+    padding-left: .5em;
+    font-size: 1em;
+    color: antiquewhite;
+}
+
