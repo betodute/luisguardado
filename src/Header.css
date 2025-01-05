@@ -28,11 +28,11 @@
 .profile-pic {
     max-width: 100%;
     height: auto;
-    border-radius: 1em;
+    border-radius: .3em;
     display: block;
 }
 
-.header-subtitle {
+.profile-pic-subtitle {
     color: antiquewhite;
     font-size: .7em;
     margin: .5em 0em;
