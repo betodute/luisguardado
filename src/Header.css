@@ -19,38 +19,3 @@
     }
 }
 
-.profile-pic-wrapper {
-    width: 15em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.profile-pic {
-    max-width: 100%;
-    height: auto;
-    border-radius: .3em;
-    display: block;
-}
-
-.profile-pic-subtitle {
-    color: antiquewhite;
-    font-size: .7em;
-    margin: .5em 0em;
-}
-
-.header-content {
-    color: antiquewhite;
-    margin: .5em 0em;
-}
-
-.first-line {
-    margin: 1em 0em .5em 0em;
-    display: block;
-    font-size: 1.3em;
-}
-
-.block-description {
-    font-family: "Manuale", serif;
-    font-optical-sizing: auto;
-}
-
