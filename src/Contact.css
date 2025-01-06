@@ -1,21 +1,42 @@
 .contact-wrapper {
-    margin: .5em 2em 2em 2em;
-    padding: .5em;
+    margin: 0.5em 2em 2em 2em;
+    padding: 0.5em;
     border-top: solid antiquewhite;
     border-bottom: solid antiquewhite;
     display: flex;
-}
-
-.contact-phone {
-    padding: .5em;
-    font-size: 1em;
-    color: antiquewhite;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact-icon {
-    margin-top: .6em;
-    padding-left: .5em;
+    margin-top: 0.6em;
+    padding-right: 0.5em;
     font-size: 1em;
     color: antiquewhite;
 }
+
+.contact-phone {
+    padding: 0.5em;
+    font-size: 1em;
+    color: antiquewhite;
+}
+
+.contact-email {
+    color: antiquewhite;
+    padding: 0.5em;
+    margin-left: 3em;
+}
+
+/* Media query for small screens */
+@media (max-width: 700px) {
+    .contact-wrapper {
+        display: block;
+        text-align: center;
+    }
+    
+    .contact-email {
+        margin-left: 0;
+    }
+}
+
 

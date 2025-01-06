@@ -1,0 +1,30 @@
+.beto-wrapper {
+  display: flex;
+  margin-left: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.beto-content {
+  padding: 1em;
+  margin-bottom: 0.5em;
+  color: antiquewhite;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.beto-content a {
+  color: #b22222;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.beto-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .beto-wrapper {
+    margin-left: 0;
+  }
+}

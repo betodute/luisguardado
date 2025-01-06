@@ -4,6 +4,7 @@ import { Content } from './Content.js'
 import { Map } from './Map.js'
 import { Social } from './Social.js'
 import { Contact } from './Contact.js'
+import { Beto } from './Beto.js'
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
         <Map />
         <Social /> 
         <Contact />
+        <Beto />
     </div>
   );
 }
