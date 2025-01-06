@@ -2,69 +2,129 @@
 
 This is a personal portfolio website for Luis Guardado, designed as a digital business card to showcase his professional expertise and services in psychological counseling with a humanistic approach. The website is a responsive React.js application with plans to implement a backend for user authentication and personalized user features.
 
-## Available Scripts
+Features
+Current Features:
+Humanistic Counseling Overview:
+A dedicated section explaining Luis Guardado’s counseling approach, emphasizing empathy, unconditional acceptance, and trust.
 
-In the project directory, you can run:
+Responsive Design:
+The website is optimized for various devices (desktop, tablet, and mobile).
 
-### `npm start`
+Contact Information:
+Easy access to Luis Guardado’s contact details and social media links.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Planned Features:
+User Authentication (MERN Stack):
+A backend system will be added to allow authenticated users (clients/patients) to log in and access private resources or information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Client Dashboard:
+A personalized dashboard for clients to manage appointments, access resources, or view notes.
 
-### `npm test`
+Technologies Used
+Frontend: React.js, JSX, CSS (custom styling for each component).
+Backend (Planned): Node.js, Express.js, MongoDB (for secure login and client data storage).
+Version Control: Git & GitHub for version control.
+Deployment: Include deployment platform once ready (e.g., Vercel, Netlify, GitHub Pages).
+Component Structure
+Main Components:
+Header – Contains the main navigation and title of the website.
+Portrait – Displays a professional portrait of Luis Guardado.
+Content – Explains the counseling services offered, with a focus on the humanistic approach.
+Map – Embeds a map showing the location of the practice.
+Social – Provides links to social media profiles.
+Contact – Displays contact information for inquiries.
+Sample Code Snippet (Main App.js):
+javascript
+Copy code
+import { Header } from './Header.js'
+import { Portrait } from './Portrait.js'
+import { Content } from './Content.js'
+import { Map } from './Map.js'
+import { Social } from './Social.js'
+import { Contact } from './Contact.js'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+import './App.css';
 
-### `npm run build`
+function App() {
+  return (
+    <div className="app-main">
+        <Header />
+        <Portrait />
+        <Content />
+        <Map />
+        <Social /> 
+        <Contact />
+    </div>
+  );
+}
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+export default App;
+Installation Instructions
+To set up the project locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy code
+git clone https://github.com/yourusername/luis-guardado-portfolio.git
+Navigate to the project directory:
 
-### `npm run eject`
+bash
+Copy code
+cd luis-guardado-portfolio
+Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+npm install
+Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy code
+npm start
+Usage
+Navigate the site:
+The site consists of several sections, including an overview of counseling services, a portrait section, and contact/social media links.
+The content is primarily in Spanish, reflecting the primary audience.
+Responsive Layout:
+The site automatically adapts to various screen sizes, making it accessible on mobile, tablet, and desktop devices.
+Contact Information
+For inquiries, please contact:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Name: Alberto Duarte
+Email: contact@betodute.com
+Portfolio: betodute.com
+GitHub: github.com/betodute
+LinkedIn: linkedin.com/in/betodute
+Contributing
+If you wish to contribute to the development of this project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Fork the repository.
+Create a new branch for your feature or bug fix:
+bash
+Copy code
+git checkout -b feature/your-feature-name
+Commit your changes:
+bash
+Copy code
+git commit -m "Describe your changes"
+Push your branch and create a pull request.
+Known Issues
+List any current known issues here.
+Examples:
 
-## Learn More
+Styling inconsistencies on different browsers.
+Map integration may occasionally fail to load.
+Future Plans
+Backend Implementation:
+Add a Node.js and Express backend with MongoDB for secure client login and data management.
+Develop a personalized dashboard for clients to view and manage information.
+Multilingual Support:
+Add English language support to make the site accessible to a broader audience.
+License
+You can include a license type here, such as MIT or Apache 2.0.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Acknowledgments
+Special thanks to Luis Guardado for trusting me with the development of his personal website.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
