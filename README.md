@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Luis Guardado - Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website for Luis Guardado, designed as a digital business card to showcase his professional expertise and services in psychological counseling with a humanistic approach. The website is a responsive React.js application with plans to implement a backend for user authentication and personalized user features.
 
 ## Available Scripts
 
