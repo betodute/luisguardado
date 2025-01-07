@@ -1,64 +1,40 @@
-# Luis Guardado - Personal Portfolio Website
+**Luis Guardado - Personal Portfolio Website**
+==============================================
 
-This is a personal portfolio website for Luis Guardado, designed as a digital business card to showcase his professional expertise and services in psychological counseling with a humanistic approach. The website is a responsive React.js application with plans to implement a backend for user authentication and personalized user features.
+This is a personal portfolio website for **Luis Guardado**, designed as a digital business card to showcase his professional expertise and services in psychological counseling with a humanistic approach. The website is a responsive React.js application with plans to implement a backend for user authentication and personalized user features.
 
-Features
-Current Features:
-Humanistic Counseling Overview:
-A dedicated section explaining Luis Guardado’s counseling approach, emphasizing empathy, unconditional acceptance, and trust.
+---
 
-Responsive Design:
-The website is optimized for various devices (desktop, tablet, and mobile).
+## **Features**
 
-Contact Information:
-Easy access to Luis Guardado’s contact details and social media links.
+### Current Features:
+- **Humanistic Counseling Overview:**  
+  A dedicated section explaining Luis Guardado’s counseling approach.
+  
+- **Responsive Design:**  
+  The website is optimized for various devices (desktop, tablet, and mobile).  
+  
+- **Contact Information:**  
+  Easy access to Luis Guardado’s contact details and social media links.
 
-Planned Features:
-User Authentication (MERN Stack):
-A backend system will be added to allow authenticated users (clients/patients) to log in and access private resources or information.
+### Planned Features:
+- **User Authentication (MERN Stack):**  
+  A backend system will be added to allow authenticated users (clients/patients) to log in and access private resources or information.
+  
+- **Client Dashboard:**  
+  A personalized dashboard for clients to manage appointments, access resources, or view notes.
 
-Client Dashboard:
-A personalized dashboard for clients to manage appointments, access resources, or view notes.
+---
 
-Technologies Used
-Frontend: React.js, JSX, CSS (custom styling for each component).
-Backend (Planned): Node.js, Express.js, MongoDB (for secure login and client data storage).
-Version Control: Git & GitHub for version control.
-Deployment: Include deployment platform once ready (e.g., Vercel, Netlify, GitHub Pages).
-Component Structure
-Main Components:
-Header – Contains the main navigation and title of the website.
-Portrait – Displays a professional portrait of Luis Guardado.
-Content – Explains the counseling services offered, with a focus on the humanistic approach.
-Map – Embeds a map showing the location of the practice.
-Social – Provides links to social media profiles.
-Contact – Displays contact information for inquiries.
-Sample Code Snippet (Main App.js):
-javascript
-Copy code
-import { Header } from './Header.js'
-import { Portrait } from './Portrait.js'
-import { Content } from './Content.js'
-import { Map } from './Map.js'
-import { Social } from './Social.js'
-import { Contact } from './Contact.js'
+## **Technologies Used**
 
-import './App.css';
+- **Frontend:** React.js, JSX, CSS (custom styling for each component).  
+- **Backend (Planned):** Node.js, Express.js, MongoDB (for secure login and client data storage).  
+- **Version Control:** Git & GitHub for version control.  
+- **Deployment:** _Include deployment platform once ready (e.g., Vercel, Netlify, GitHub Pages)._
 
-function App() {
-  return (
-    <div className="app-main">
-        <Header />
-        <Portrait />
-        <Content />
-        <Map />
-        <Social /> 
-        <Contact />
-    </div>
-  );
-}
+---
 
-export default App;
 Installation Instructions
 To set up the project locally:
 
