@@ -3,12 +3,14 @@
 
 This is a personal portfolio website for **Luis Guardado**, designed as a digital business card to showcase his professional expertise and services in psychological counseling with a humanistic approach. The website is a responsive React.js application with plans to implement a backend for user authentication and personalized user features.
 
+What I like most 
+
 ---
 
 ## **Features**
 
 ### Current Features:
-- **Humanistic Counseling Overview:**  
+- **Main Written Content:**  
   A dedicated section explaining Luis Guardado’s counseling approach.
   
 - **Responsive Design:**  
@@ -35,44 +37,17 @@ This is a personal portfolio website for **Luis Guardado**, designed as a digita
 
 ---
 
-Installation Instructions
-To set up the project locally:
+## **The Developer**
 
-Clone the repository:
+- **Name:** Alberto Duarte
+- **Email:** contact@betodute.com
+- **Portfolio:** betodute.com
+- **GitHub:** github.com/betodute
+- **LinkedIn:** linkedin.com/in/betodute
 
-bash
-Copy code
-git clone https://github.com/yourusername/luis-guardado-portfolio.git
-Navigate to the project directory:
+---
 
-bash
-Copy code
-cd luis-guardado-portfolio
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-Usage
-Navigate the site:
-The site consists of several sections, including an overview of counseling services, a portrait section, and contact/social media links.
-The content is primarily in Spanish, reflecting the primary audience.
-Responsive Layout:
-The site automatically adapts to various screen sizes, making it accessible on mobile, tablet, and desktop devices.
-Contact Information
-For inquiries, please contact:
-
-Name: Alberto Duarte
-Email: contact@betodute.com
-Portfolio: betodute.com
-GitHub: github.com/betodute
-LinkedIn: linkedin.com/in/betodute
-Contributing
+### **Contributing**
 If you wish to contribute to the development of this project:
 
 Fork the repository.
@@ -85,6 +60,7 @@ bash
 Copy code
 git commit -m "Describe your changes"
 Push your branch and create a pull request.
+
 Known Issues
 List any current known issues here.
 Examples:
